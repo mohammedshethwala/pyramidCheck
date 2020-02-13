@@ -5,11 +5,11 @@ public class PyramidCheckResponse {
 	private String word;
 	private boolean isPyramid;
 	
-	public String getInputValue() {
+	public String getWord() {
 		return word;
 	}
-	public void setInputValue(String inputValue) {
-		this.word = inputValue;
+	public void setWord(String word) {
+		this.word = word;
 	}
 	public boolean isPyramid() {
 		return isPyramid;

@@ -38,7 +38,7 @@ public class PyramidCheckServiceImpl implements PyramidCheckService {
 	    
 	    boolean isPyramid = numberofKeysTotal == valueTotal;
 	    
-	    pyramidCheckResponse.setInputValue(inputWord);
+	    pyramidCheckResponse.setWord(inputWord);
 	    pyramidCheckResponse.setPyramid(isPyramid);
 		
 		return pyramidCheckResponse;
